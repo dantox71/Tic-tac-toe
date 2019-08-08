@@ -1,5 +1,2 @@
 tic-tac-toe game.
-Technologies:
--javaScript
--HTML5
--CSS3
+Technologies:javaScript,HTML5,CSS3
