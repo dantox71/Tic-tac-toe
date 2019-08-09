@@ -1,0 +1,46 @@
+body{
+    font-family:sans-serif;
+}
+
+
+.board{
+    width:906px; 
+
+    background:#f0f0f0;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,300px);
+    grid-gap:3px;
+    display:grid;
+    border:1px solid #000;
+    cursor:pointer;
+    margin:auto;
+    
+}
+
+.box{
+    background:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    font-size:10rem;
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:960px){
+    .board{
+        width:426px;
+        grid-template-rows:repeat(3,140px);
+    }
+
+    .box{
+        font-size:5rem;
+    }
+}
