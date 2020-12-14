@@ -8,5 +8,9 @@
   <li>HTML5</li>
   <li>CSS3</li>
 </ul>
+
+
+
+[Live version](https://dl-tic-tac-toe.netlify.app)
   
 
